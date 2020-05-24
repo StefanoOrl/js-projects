@@ -1,0 +1,33 @@
+body {
+  padding: 3rem;
+  margin: 0 auto !important;
+  display: table;
+  width: 50vw;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+.wrapper#age {
+  flex-direction: column;
+}
+.wrapper_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper_grid img {
+  width: 150px;
+  height: 150px;
+}
+.wrapper > button {
+  /* flex: 1; */
+  flex-basis: 40%;
+}
+.wrapper_grid button {
+  grid-column: 2;
+}
