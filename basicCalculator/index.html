@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS base Calculator</title>
+    <link rel="stylesheet" href="assets/styles/app.css" />
+  </head>
+  <body>
+    <header>
+      <h1>JS base Calculator</h1>
+    </header>
+
+    <section id="calculator">
+      <input
+        type="number"
+        id="input-number"
+        placeholder="Insert a number"
+        step="1"
+      />
+      <div id="calc-actions">
+        <button id="btn-add" type="button">+</button>
+        <button id="btn-subtract" type="button">-</button>
+        <button id="btn-multiply" type="button">x</button>
+        <button id="btn-divide" type="button">:</button>
+        <button id="btn-clear" type="button">clear</button>
+      </div>
+    </section>
+    <section id="results">
+      <h2 id="current-calculation">0</h2>
+      <h2>Result: <span id="current-result">0</span></h2>
+      <h3 class="last-operation"></h3>
+    </section>
+    <script src="assets/scripts/vendor.js" defer></script>
+    <script src="assets/scripts/app.js" defer></script>
+  </body>
+</html>
