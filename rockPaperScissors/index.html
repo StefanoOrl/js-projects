@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <title>Rock Paper Scissors!</title>
+  </head>
+  <body>
+    <h1>Rock Paper Scissors!</h1>
+    <hr />
+    <div class="wrapper_grid" id="rock_paper_scissors">
+      <img
+        id="rock"
+        src="https://i.redd.it/chuf8yqimk041.jpg"
+        alt="rock image"
+      />
+      <img
+        id="paper"
+        src="https://www.rilheva.com/wp-content/uploads/2017/01/free-floating-a4-paper-sheet-mockup.jpg"
+        alt="paper image"
+      />
+      <img
+        id="scissors"
+        src="https://images-na.ssl-images-amazon.com/images/I/81TD%2B0Y9f6L._AC_SL1500_.jpg"
+        alt="scissors image"
+      />
+    </div>
+    <hr />
+    <table class="results">
+      <thead>
+        <tr>
+          <td>
+            <h3>Total score</h3>
+          </td>
+        </tr>
+      </thead>
+      <tr>
+        <td>
+          <div class="human">
+            <h4>Human: <span value="0"></span></h4>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="computer">
+            <h4>Computer: <span value="0"></span></h4>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="draw">
+            <h4>Draws: <span value="0"></span></h4>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <hr />
+    <script src="js/main.js"></script>
+  </body>
+</html>
